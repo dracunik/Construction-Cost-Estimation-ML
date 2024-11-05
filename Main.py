@@ -106,7 +106,7 @@ if cookie_controller.get('user_id'):
     menu = st.navigation(pages=pages)
 
     # Barra de navegación
-    st.logo("app/data/logo.png")
+    st.logo("data/logo.png")
 
     # Mostrar el botón de log out
     if st.sidebar.button("Log Out"):  # Botón para cerrar sesión
